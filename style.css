@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1,h3,p,span {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: url('./img/landscape-moon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+.launching {
+    text-align: center;
+    font-size: 96px;
+    color: #FFF;
+    margin-bottom: 28px;
+}
+
+.launching span {
+    background-image: linear-gradient(to top, rgba(27, 21, 95, 1), rgba(55, 48, 130, 1));
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.countdown {
+    display: flex;
+    margin-bottom: 48px;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+
+.countdown h3 {
+    font-size: 72px;
+    color: #FFF;
+}
+
+.countdown span {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.countdown span, .allright span{
+    background-image: linear-gradient(to top, rgba(219, 217, 240, 1),
+    rgba(208, 207, 231, 1));
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+.allright {
+    text-align: center;
+    font-size: 22px;
+    color: #FFF;
+    margin-bottom: 60px;
+    letter-spacing: 0.05em;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.icons img {
+    width: 28px;
+}
+
+@media(max-width: 730px) {
+    .launching {
+        font-size: 72px;
+        margin-bottom: 24px;
+    }
+
+    .countdown {
+        gap: 72px;
+        margin-bottom: 42px;
+    }
+
+    .countdown h3 {
+        font-size: 64px;
+    }
+
+    .countdown span {
+        font-size: 20px;
+    }
+    
+    .allright {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .icons img {
+        width: 24px;
+    }
+}
+
+@media(max-width: 560px) {
+    .launching {
+        font-size: 64px;
+    }
+
+    .countdown {
+        gap: 64px;
+    }
+}
+
+@media(max-width: 500px) {
+    .launching {
+        font-size: 54px;
+    }
+
+    .countdown {
+        gap: 48px;
+    }
+
+    .countdown h3 {
+        font-size: 48px;
+    }
+}
+
+@media(max-width: 430px) {
+    .launching {
+        font-size: 48px;
+    }
+
+    .countdown {
+        gap: 36px;
+    }
+
+    .allright {
+        margin-bottom: 54px;
+    }
+}
+
+@media(max-width: 385px) {
+    .launching {
+        font-size: 46px;
+    }
+
+    .countdown h3 {
+        font-size: 42px;
+    }
+}
+
+@media(max-width: 370px) {
+    .launching {
+        font-size: 42px;
+    }
+
+    .countdown {
+        gap: 28px;
+    }
+}
+
+@media(max-width: 345px) {
+    .launching {
+        font-size: 38px;
+    }
+
+    .countdown h3 {
+        font-size: 36px;
+    }
+}
