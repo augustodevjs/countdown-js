@@ -3,14 +3,14 @@
 
 <hr>
 
-### 📚 Sobre
+### 📚 About
 
-Simulando um lançamento usando Javascript.
+Simulating a launch using JavaScript.
 
 ---
 
-### 💼 Tecnologias utilizadas
-Para o desenvolvimento deste projeto utilizei as seguintes tecnologias:
+### 💼 Tecnologies used
+For this project, I used the following tecnologies:
 
 - HTML;
 - CSS;
@@ -18,8 +18,8 @@ Para o desenvolvimento deste projeto utilizei as seguintes tecnologias:
 
 ---
 
-### :airplane: Acesse o projeto
+### :airplane: Access the project
 
-Hospedado no Netlify
+Hosted on Netlify
 
 https://countdown-javascript-project.netlify.app/
